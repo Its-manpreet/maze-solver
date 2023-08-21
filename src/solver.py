@@ -1,5 +1,5 @@
-from node import Node
-from algorithms import GuidedBFSFrontier, StackFrontier, QueueFrontier, AStarFrontier, RngFrontier
+from src.node import Node
+from src.algorithms import GuidedBFSFrontier, StackFrontier, QueueFrontier, AStarFrontier, RngFrontier
 
 def solve_maze(maze, algorithm):
     start_node = Node(state=maze.start, parent=None, action=None, path_cost=0)

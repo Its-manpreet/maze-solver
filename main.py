@@ -1,11 +1,11 @@
-from maze import Maze
-from solver import solve_maze
-from image_generator import generate_image
+from src.maze import Maze
+from src.solver import solve_maze
+from src.image_generator import generate_image
 import time
 
 IMGNAME = "solved_maze.png"
 ALGORITHM = "ASTAR"
-FILENAME = "mid.txt"
+FILENAME = "mazes/tiny.txt"
 
 if __name__ == "__main__":
     maze = Maze(FILENAME)
