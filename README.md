@@ -2,9 +2,9 @@
 
 a simple maze solver that i dont want to write the docs for but here are the config -
 
-put output img name in main.py
-put maze file name in main.py
-put algorithmm in main.py
+put output img name in main.py  
+put maze file name in main.py  
+put algorithmm in main.py  
 
 ## algorithms -
 
@@ -16,7 +16,7 @@ put algorithmm in main.py
 
 ## maze format
 
-\# = walls
-A = start
-B = end
-space = empty moveable space
+\# = walls  
+A = start  
+B = end  
+space = empty moveable space  
