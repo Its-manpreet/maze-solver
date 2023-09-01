@@ -5,7 +5,7 @@ import time
 
 IMGNAME = "solved_maze.png"
 ALGORITHM = "ASTAR"
-FILENAME = "mazes/tiny.txt"
+FILENAME = "./mazes/tiny.txt"
 
 if __name__ == "__main__":
     maze = Maze(FILENAME)
